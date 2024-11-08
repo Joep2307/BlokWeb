@@ -1,4 +1,4 @@
-# Procesverslag
+<img width="1440" alt="Screenshot 2024-11-08 at 15 17 14" src="https://github.com/user-attachments/assets/aa5b8ba2-0328-4ab8-a16f-f068d33706f5"># Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
@@ -38,15 +38,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-
+  [link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+](https://ilovem83.com/)
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ Home page  
+<img width="1436" alt="M83-HomeScreen" src="https://github.com/user-attachments/assets/4ecaa12b-8e8d-4439-bbce-b216561d83f3">
+
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Music page
+![Uploading M83-Music.png…]() 
+
  
 </details>
 
