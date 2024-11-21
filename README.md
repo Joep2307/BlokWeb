@@ -76,13 +76,15 @@ Wat ik zelf merk ik dat de webstite op sommige punten een goede scoren heeft, ma
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img width="176" alt="Screenshot 2024-11-21 at 09 58 23" src="https://github.com/user-attachments/assets/b2152ff5-41ed-4e13-ae73-6aae329688f5">
+<img width="168" alt="Screenshot 2024-11-21 at 09 58 17" src="https://github.com/user-attachments/assets/ab890c4a-7fb2-4892-8818-5aba8b00bca3">
+<img width="181" alt="Screenshot 2024-11-21 at 09 58 06" src="https://github.com/user-attachments/assets/eb794bd4-829b-409d-9b38-256b9b791fa3">
+
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+ <img width="397" alt="Screenshot 2024-11-21 at 10 00 24" src="https://github.com/user-attachments/assets/5772173c-b805-4882-bd71-cfd30b21e72a">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 
 </details>
 
