@@ -42,16 +42,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ](https://ilovem83.com/)
   #### Screenshot(s) van de eerste pagina (small screen): 
  Home page  
-<img width="1436" alt="M83-HomeScreen" src="https://github.com/user-attachments/assets/4ecaa12b-8e8d-4439-bbce-b216561d83f3">
+![M83-home](https://github.com/user-attachments/assets/eef14279-0f42-4de9-b4be-21f9dd873b14)
+
 
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Music page
-![Uploading M83-Music.png…]() 
+Store page
+![M83-store-detail](https://github.com/user-attachments/assets/dfd0b2c9-1d22-4d2a-9abe-b773d534b926)
 
  
 </details>
+
 
 
 
@@ -76,13 +78,17 @@ Wat ik zelf merk ik dat de webstite op sommige punten een goede scoren heeft, ma
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-<img width="176" alt="Screenshot 2024-11-21 at 09 58 23" src="https://github.com/user-attachments/assets/b2152ff5-41ed-4e13-ae73-6aae329688f5">
-<img width="168" alt="Screenshot 2024-11-21 at 09 58 17" src="https://github.com/user-attachments/assets/ab890c4a-7fb2-4892-8818-5aba8b00bca3">
-<img width="181" alt="Screenshot 2024-11-21 at 09 58 06" src="https://github.com/user-attachments/assets/eb794bd4-829b-409d-9b38-256b9b791fa3">
+  home page breakdown
+<img width="176" alt="M83-home-breakdown3" src="https://github.com/user-attachments/assets/da536619-1b11-42ca-bec4-1206cad40d59">
+<img width="181" alt="M83-home-breakdown1" src="https://github.com/user-attachments/assets/6784c748-6dcb-4e13-bd78-103aaacf2811">
+<img width="168" alt="M83-home-breakdown2" src="https://github.com/user-attachments/assets/8adb24b6-3d2f-4aea-b2aa-e918d57dfb86">
 
+store detail page breakdown
+<img width="184" alt="M83-store-detail-breakdown" src="https://github.com/user-attachments/assets/08803aa6-e566-4c80-8892-c1d6ca048eb3">
 
   ### dynamisch deel (bijv menu): 
- <img width="397" alt="Screenshot 2024-11-21 at 10 00 24" src="https://github.com/user-attachments/assets/5772173c-b805-4882-bd71-cfd30b21e72a">
+<img width="397" alt="M83-nav-breakdown" src="https://github.com/user-attachments/assets/ecb6efe0-7bd9-41a9-a4b6-33384fb78eb3">
+
 
 
 
@@ -98,7 +104,9 @@ Wat ik zelf merk ik dat de webstite op sommige punten een goede scoren heeft, ma
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het beginnen met code ging niet makkelijk. Het was even zoeken waar  ik het beste kon beginnen. Ik gebruikte eerst de code van de webiste zelf om een begin te maken, maar de code die ze zelf hebben gemaakt is één grote zooi. Het staat vol met alleen maar DIV's, ID's en Classes. 
+
+
 
 
   ### Agenda voor meeting
@@ -112,12 +120,11 @@ Wat ik zelf merk ik dat de webstite op sommige punten een goede scoren heeft, ma
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Na mijn voortgangsgesprek met Vasilis heb ik meer duidelijkheid gekregen hoe ik het beste verder kan gaan met mijn website. Ik wilde eerst de home page en de music page namaken, maar we zijn er achtergekomen dat dit eigenlijk te makkelijk is. Ik ga nu de home page (uitgebreider) en de detailpagina van de webshop namaken. Er zit meer diversiteit in en is niet alleen maar 1 pagina waar je 10 dingen copy paste. 
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Meer coderen
+  - Store detail page ipv music page
+  - Niet naar de code van de site zelf kijken
 
 </details>
 
