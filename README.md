@@ -1,4 +1,4 @@
-# Procesverslag
+<img width="1440" alt="Screenshot 2024-11-08 at 15 17 14" src="https://github.com/user-attachments/assets/aa5b8ba2-0328-4ab8-a16f-f068d33706f5"># Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+ Joep Groenteman
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  surface
  
 </details>
 
@@ -32,19 +32,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
+
+
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-
+  [link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+](https://ilovem83.com/)
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ Home page  
+<img width="1436" alt="M83-HomeScreen" src="https://github.com/user-attachments/assets/4ecaa12b-8e8d-4439-bbce-b216561d83f3">
+
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Music page
+![Uploading M83-Music.png…]() 
+
  
 </details>
 
@@ -58,6 +63,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Uit de toegankelijkheidstest is gekomen dat de website op alles behalve 'media' en 'controls' goed scoort. Op 'media' scoort de website niet goed genoeg, omdat er geen transcript captions zijn. En op 'controls' is niet goed gescoort omdat je niet goed met je toetsenbrod door de pagina heen kan gaan. 
+Wat ik zelf merk ik dat de webstite op sommige punten een goede scoren heeft, maar dat niet betekent dat het makkelijk/goed te gebruiken is. Ik vind de website zelf niet toeghankelijk genoeg. Je krijgt als je op de pagina komt meteen een pagina vullende video te zien waar je alleen uit kan komen als je je muis gebruikt. En de screenreader lees niet alles op. En wanneer die wat voorleest onder op de pagina blijft de pagina boven aan hangen. 
+
 </details>
 
 
@@ -68,13 +76,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img width="176" alt="Screenshot 2024-11-21 at 09 58 23" src="https://github.com/user-attachments/assets/b2152ff5-41ed-4e13-ae73-6aae329688f5">
+<img width="168" alt="Screenshot 2024-11-21 at 09 58 17" src="https://github.com/user-attachments/assets/ab890c4a-7fb2-4892-8818-5aba8b00bca3">
+<img width="181" alt="Screenshot 2024-11-21 at 09 58 06" src="https://github.com/user-attachments/assets/eb794bd4-829b-409d-9b38-256b9b791fa3">
+
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+ <img width="397" alt="Screenshot 2024-11-21 at 10 00 24" src="https://github.com/user-attachments/assets/5772173c-b805-4882-bd71-cfd30b21e72a">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 
 </details>
 
