@@ -5,27 +5,297 @@
   box-sizing:border-box;  
 }
 
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: whitesmoke;
+	--color-background: #081934;
+	--color-button: #d772a7;
+	--color-hover-background: black;
+	--color-form-background: #001230;
+	--color-valid: lightgreen;
+	--color-invalid: lightpink;
+	--white-background: whitesmoke;
+	--purple-background: #312870;
+
 }
-
-
-
-
 
 /****************/
 /* JOUW STYLING */
 /****************/
-
 /* jouw code */
 
+
+/*  main */
+body{
+	padding: 1em;
+	font-family: Helvetica ,sans-serif;
+	background-color: var(--color-background);
+	line-height: 1.5; 
+	
+}
+
+h1, h2, h3, h4 {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: var(--color-text);
+	z-index: 2;
+}
+
+p{
+	position: relative;
+	color: var(--color-text);
+	font-size: 18px;
+	z-index: 2;
+}
+
+img{
+	z-index: 1;
+}
+
+svg{
+	fill: var(--white-background);
+	max-width: 5vw;
+	max-height: 5vh;
+}
+
+button{
+	background-color: var(--color-button);
+	padding: 1em;
+	border-radius: 1em;
+
+}
+
+nav{
+	position: relative;
+	z-index: 1;
+}
+
+main{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+
+footer{
+	max-width: 90vw;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+
+}
+
+a:link{
+	color: var(--color-text);
+	text-decoration: none;
+	z-index: 2;
+}
+
+a:visited{
+	color: var(--color-text);
+	text-decoration: none;
+}
+
+ul ,ol{
+	display: flex;
+    list-style-type: none;
+	justify-content: space-evenly;
+
+	max-width: 90vw;
+}
+
+li{
+	margin-right: 1vw;
+}
+
+article{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* form */
+
+section p{
+	max-width: 40em;
+}
+
+form{
+	width: 80vw;
+	background-color: var(--color-form-background);
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5em;
+}
+
+input{
+	width: 60vw;
+	max-width: 20em;
+	height: 5vh;
+	margin: 1em;
+}
+
+input:valid{
+	background-color: var(--color-valid);
+}
+
+input:user-invalid{
+	background-color: var(--color-invalid);
+}
+
+/* article */
+article a:link{
+	text-decoration: underline;
+	text-decoration-color: var(--color-button);
+	font-weight: bold;
+}
+
+ol a:link{
+	text-decoration:dotted underline;
+	text-decoration-color: var(--color-button);
+}
+
+article a:hover{
+	background-color: var(--color-button);
+	color: var(--color-hover-background) ;
+}
+
+/* Header */
+nav{
+	z-index: 3;
+}
+
+header button{
+	position: absolute;
+	right: 5vw ;
+	top: 5vh;
+}
+
+header h1{
+	position: absolute;
+	top: -20vh;
+}
+
+/* img */
+
+nav img{
+	height: 3em;
+	background-color: var(--color-button);
+	padding: 0.5em;
+	border-radius: 0.5em;
+
+}
+
+footer img{
+	max-width: 10vw;
+	padding: 0.5em;
+	border-radius: 1em;
+	
+}
+
+section article img{
+	max-width: 20em;
+}
+
+section img:last-of-type{
+	width: 50em;
+}
+
+img:nth-child(3){
+	position: absolute;
+	left: 0em;
+	top: 0em;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+} 
+
+.logo {
+	margin-top: 60vh;
+	max-width: 40vw;
+}
+
+form button{
+	background-color: var(--color-hover-background);
+	color: var(--color-text);
+	font-weight: bold;
+	border-radius: 0em;
+	width: 40vw;
+}
+
+section:nth-of-type(2){
+	background-color: var(--purple-background);
+	width: 100vw;
+	padding-top: 2vh;
+	padding-bottom: 4vh;
+	padding-bottom: 15vh;
+}
+
+section:nth-of-type(3){
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	background-position:50% 50%;
+	background-image:url(https://ilovem83.com/wp-content/uploads/2022/12/M83_fantasy_050722_AnouckBertin-1600.jpg);
+}
+
+div:nth-of-type(1){
+	position: absolute;
+	filter: blur(2.5rem);
+	top: 85vh;
+	left: -5em;
+	right: -5em;
+	height: 20vh;
+	background-color: var(--color-background);
+
+}
+
+div:nth-of-type(2){
+	position: absolute;
+	filter: blur(2.5rem);
+	top: 230vh;
+	left: -5em;
+	right: -5em;
+	height: 40vh;
+	background-color: var(--color-background);
+}
+
+div:nth-of-type(3){
+	position: absolute;
+	filter: blur(2.5rem);
+	top: 430vh;
+	left: -5em;
+	right: -5em;
+	height: 40vh;
+	background-color: var(--purple-background);
+	z-index: 1;
+}
+
+
+div:nth-of-type(4){
+	position: absolute;
+	filter: blur(2.5rem);
+	top: 540vh;
+	left: -5em;
+	right: -5em;
+	height: 30vh;
+	background-color: var(--color-background);
+
+}
