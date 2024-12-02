@@ -239,8 +239,47 @@ Wat ik zelf merk ik dat de webstite op sommige punten een goede scoren heeft, ma
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  chatgtp: 
+**  prompt**
+  "easy svg for hamburger menu"
 
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  width="32" height="32" 
+  viewBox="0 0 24 24" 
+  fill="none" 
+  stroke="currentColor" 
+  stroke-width="2" 
+  stroke-linecap="round" 
+  stroke-linejoin="round">
+  <line x1="3" y1="6" x2="21" y2="6" />
+  <line x1="3" y1="12" x2="21" y2="12" />
+  <line x1="3" y1="18" x2="21" y2="18" />
+</svg>
+  
+prompt
+can you make a plus and a minu svg
+
+Here are simple SVGs for a plus and a minus symbol. You can customize their size and color as needed.
+
+Plus SVG:
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="12" y1="5" x2="12" y2="19"></line>
+  <line x1="5" y1="12" x2="19" y2="12"></line>
+</svg>
+
+Minus SVG:
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="5" y1="12" x2="19" y2="12"></line>
+</svg>
+
+How to Use:
+
+	1.	Copy and paste the SVGs into your HTML where you need them.
+	2.	You can adjust the width, height, and stroke attributes to customize their size and color.
+	3.	Use stroke="red" (or any color) if you want the symbols to appear in a specific color.
+
+Let me know if you need further customization!
 </details>
