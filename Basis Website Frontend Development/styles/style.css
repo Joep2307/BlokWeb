@@ -2,14 +2,14 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+box-sizing: border-box;  
 }
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
+	
 	--color-text: whitesmoke;
 	--color-background: #081934;
 	--color-button: #d772a7;
@@ -19,118 +19,232 @@
 	--color-invalid: lightpink;
 	--white-background: whitesmoke;
 	--purple-background: #312870;
-
 }
 
-/****************/
-/* JOUW STYLING */
-/****************/
-/* jouw code */
+
+@font-face {
+	font-family: "MyCustomFont";
+	src: url("./fonts/MyCustomFont.ttf");
+  }
 
 
-/*  main */
-body{
-	padding: 1em;
-	font-family: Helvetica ,sans-serif;
+
+
+
+/****************/
+/* ALGEMENE STIJLEN */
+/****************/
+
+
+main.home-page{
+	margin-top: 50vh;
+}
+
+
+body {
 	background-color: var(--color-background);
+	font-family: 'Cinzel', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif , Helvetica, sans-serif;
 	line-height: 1.5; 
-	
 }
 
 h1, h2, h3, h4 {
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
 	color: var(--color-text);
 	z-index: 2;
+	text-align: center;
 }
 
-p{
+
+
+p {
 	position: relative;
 	color: var(--color-text);
 	font-size: 18px;
 	z-index: 2;
+	margin: 1em;
 }
 
-img{
+img {
 	z-index: 1;
 }
 
-svg{
+svg {
 	fill: var(--white-background);
 	max-width: 5vw;
 	max-height: 5vh;
 }
 
-button{
+button {
 	background-color: var(--color-button);
 	padding: 1em;
+	
 	border-radius: 1em;
 
 }
 
-nav{
-	position: relative;
-	z-index: 1;
-}
-
-main{
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+button:hover {
+	transform: scale(1.05);
 
 }
 
-
-footer{
-	max-width: 90vw;
-	display: flex;
-	flex-direction: column;
-	align-items: start;
-
-}
-
-a:link{
+a:link, a:visited {
 	color: var(--color-text);
 	text-decoration: none;
 	z-index: 2;
 }
 
-a:visited{
-	color: var(--color-text);
-	text-decoration: none;
-}
-
-ul ,ol{
+ul, ol {
 	display: flex;
-    list-style-type: none;
+	list-style-type: none;
 	justify-content: space-evenly;
-
 	max-width: 90vw;
+	padding: 0em;
+	flex-wrap: wrap;
 }
 
-li{
-	margin-right: 1vw;
+li {
+	margin: 0.5em;
 }
 
-article{
+
+
+
+
+
+
+
+
+
+/****************/
+/* STRUCTUURELEMENTEN */
+/****************/
+/* Header */
+
+header{
+	height: 10em;
+}
+
+header h1 {
+	position: absolute;
+	top: -20vh;
+}
+
+
+nav {
+	height: 10em;
+}
+
+nav img {
+	position: absolute;
+	left: 4vw;
+	top: 4vh;
+	height: 8vw;
+	min-height: 3em;
+	background-color: var(--color-button);
+	padding: 0.5em;
+	border-radius: 0.5em;
+	z-index: 5;
+}
+
+nav button {
+	position: absolute;
+	right: 4vw;
+	top: 3vh;
+	background: transparent;
+	border: none;
+	padding: 0;
+	color: var(--color-button);
+	z-index: 3;
+}
+
+nav svg {
+	min-width: 10vw;
+	min-height: 10vh;
+}
+
+img:nth-child(3) {
+	position: absolute;
+	left: 0em;
+	top: 0em;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+}
+
+
+
+
+/* Main en secties */
+main {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-section{
+section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-/* form */
-
-section p{
-	max-width: 40em;
+section:nth-of-type(2) {
+	background-color: var(--purple-background);
+	width: 100vw;
 }
 
-form{
+section:nth-of-type(3) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background: 
+		linear-gradient(rgba(8, 25, 52, 0.8), rgba(8, 25, 52, 0.4)),
+		url(https://ilovem83.com/wp-content/uploads/2022/12/M83_fantasy_050722_AnouckBertin-1600.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+section img:last-of-type {
+	width: 20em;
+	max-width: 70vw;
+}
+
+div{
+display: grid;
+}
+
+
+
+/* Artikelen */
+article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+article p {
+	text-align: center;
+}
+
+article a:link {
+	text-decoration: underline;
+	text-decoration-color: var(--color-button);
+	font-weight: bold;
+}
+
+article a:hover {
+	background-color: var(--color-button);
+	color: var(--color-hover-background);
+}
+
+
+
+
+/* Form */
+form {
 	width: 80vw;
 	background-color: var(--color-form-background);
 	padding: 1em;
@@ -140,94 +254,24 @@ form{
 	margin-top: 5em;
 }
 
-input{
+input {
 	width: 60vw;
 	max-width: 20em;
 	height: 5vh;
 	margin: 1em;
+	font-size: 16px;
+	padding: 0.5em;
 }
 
-input:valid{
+input:valid {
 	background-color: var(--color-valid);
 }
 
-input:user-invalid{
+input:user-invalid {
 	background-color: var(--color-invalid);
 }
 
-/* article */
-article a:link{
-	text-decoration: underline;
-	text-decoration-color: var(--color-button);
-	font-weight: bold;
-}
-
-ol a:link{
-	text-decoration:dotted underline;
-	text-decoration-color: var(--color-button);
-}
-
-article a:hover{
-	background-color: var(--color-button);
-	color: var(--color-hover-background) ;
-}
-
-/* Header */
-nav{
-	z-index: 3;
-}
-
-header button{
-	position: absolute;
-	right: 5vw ;
-	top: 5vh;
-}
-
-header h1{
-	position: absolute;
-	top: -20vh;
-}
-
-/* img */
-
-nav img{
-	height: 3em;
-	background-color: var(--color-button);
-	padding: 0.5em;
-	border-radius: 0.5em;
-
-}
-
-footer img{
-	max-width: 10vw;
-	padding: 0.5em;
-	border-radius: 1em;
-	
-}
-
-section article img{
-	max-width: 20em;
-}
-
-section img:last-of-type{
-	width: 50em;
-}
-
-img:nth-child(3){
-	position: absolute;
-	left: 0em;
-	top: 0em;
-	width: 100vw;
-	height: 100vh;
-	object-fit: cover;
-} 
-
-.logo {
-	margin-top: 60vh;
-	max-width: 40vw;
-}
-
-form button{
+form button {
 	background-color: var(--color-hover-background);
 	color: var(--color-text);
 	font-weight: bold;
@@ -235,67 +279,107 @@ form button{
 	width: 40vw;
 }
 
-section:nth-of-type(2){
-	background-color: var(--purple-background);
-	width: 100vw;
-	padding-top: 2vh;
-	padding-bottom: 4vh;
-	padding-bottom: 15vh;
-}
 
-section:nth-of-type(3){
 
+
+
+
+/* Footer */
+footer {
+	max-width: 90vw;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	align-items: start;
+	padding: 2em;
+}
+
+footer img {
+	margin-top: 5vh;
+	width: 40vw;
+	max-width: 10em;
+	padding: 0.5em;
+	border-radius: 1em;
+}
+
+
+
+
+
+
+
+footer h1{
+color: transparent;
+	font-size: 1px;
+}
+
+
+
+
+/****************/
+/* DETAILPAGINA */
+/****************/
+body.detail-page {
+	margin: 0em;
+	background-image: url(https://ilovem83.com/wp-content/uploads/2022/12/fantasy-cover2-1400.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 	width: 100vw;
-	height: 100vh;
-	object-fit: cover;
-	background-position:50% 50%;
-	background-image:url(https://ilovem83.com/wp-content/uploads/2022/12/M83_fantasy_050722_AnouckBertin-1600.jpg);
+	background-position: center;
+	
 }
 
-div:nth-of-type(1){
-	position: absolute;
-	filter: blur(2.5rem);
-	top: 85vh;
-	left: -5em;
-	right: -5em;
-	height: 20vh;
-	background-color: var(--color-background);
+@media screen and (min-width: 1100px) {
+    article.detail-page {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Twee kolommen van gelijke breedte */
+        gap: 2em; /* Ruimte tussen de kolommen */
+        align-items: start; /* Zorg dat de items bovenaan uitlijnen */
+    }
 
+    article section {
+        max-width: 50vw; 
+    }
+}
+ 
+
+section:nth-of-type(2).detail-page {
+	background: transparent;
+	width: 80vw;
+	position: relative;
+	top: 0;
 }
 
-div:nth-of-type(2){
-	position: absolute;
-	filter: blur(2.5rem);
-	top: 230vh;
-	left: -5em;
-	right: -5em;
-	height: 40vh;
-	background-color: var(--color-background);
+article input{
+	width: 5em;
+	height: 5em;
+	margin: 0em;
+	padding: 0em;
 }
 
-div:nth-of-type(3){
-	position: absolute;
-	filter: blur(2.5rem);
-	top: 430vh;
-	left: -5em;
-	right: -5em;
-	height: 40vh;
-	background-color: var(--purple-background);
-	z-index: 1;
+ol button{
+	background-color: transparent;
+	color: var(--color-text);
+	padding: 1em;
+	max-height: 5em;
+	margin: 0.5em;
 }
 
+article ol:nth-of-type(2) button{
+	border-radius: 0em;
+}
 
-div:nth-of-type(4){
-	position: absolute;
-	filter: blur(2.5rem);
-	top: 540vh;
-	left: -5em;
-	right: -5em;
-	height: 30vh;
-	background-color: var(--color-background);
+article section:nth-of-type(1) img{
+	width: 80%;
+	max-width: 40em ;
+}
 
+div.detail-page{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div article{
+	margin: 2em;
+	min-width: 40vw;
 }

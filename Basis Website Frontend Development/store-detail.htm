@@ -8,109 +8,146 @@
     <title>M83 - Store detail</title>
     <link href="styles/style.css" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    
 </head>
 
-<body>
-    <nav>
-        <h1>M83 store detail page</h1>
-        <a href="index.html"><img src="./images/Logo 800x299.png" alt="M83 store detail page"></a>
-        <section>
-            <a href="https://store.ilovem83.com/collections/music">music</a>
-            <a href="https://store.ilovem83.com/collections/merch"> merch</a>
-            <a href="https://privacy-policy.sandbagheadquarters.com/2024-xmas-delivery-dates-uk/">christmas order
-                dates</a>
-        </section>
-        <section>
-            <button>
-                <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false"
-                    role="presentation">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z"
-                        fill="currentColor"></path>
-                </svg>
-            </button>
-            <a href="https://store.ilovem83.com/account/login"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation"  fill="none" viewBox="0 0 18 19">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M6 4.5a3 3 0 116 0 3 3 0 01-6 0zm3-4a4 4 0 100 8 4 4 0 000-8zm5.58 12.15c1.12.82 1.83 2.24 1.91 4.85H1.51c.08-2.6.79-4.03 1.9-4.85C4.66 11.75 6.5 11.5 9 11.5s4.35.26 5.58 1.15zM9 10.5c-2.5 0-4.65.24-6.17 1.35C1.27 12.98.5 14.93.5 18v.5h17V18c0-3.07-.77-5.02-2.33-6.15-1.52-1.1-3.67-1.35-6.17-1.35z" fill="currentColor">
-              </path></svg></a>
-            <a href="https://store.ilovem83.com/cart"><svg class="icon icon-cart-empty" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
-                <path d="m15.75 11.8h-3.16l-.77 11.6a5 5 0 0 0 4.99 5.34h7.38a5 5 0 0 0 4.99-5.33l-.78-11.61zm0 1h-2.22l-.71 10.67a4 4 0 0 0 3.99 4.27h7.38a4 4 0 0 0 4-4.27l-.72-10.67h-2.22v.63a4.75 4.75 0 1 1 -9.5 0zm8.5 0h-7.5v.63a3.75 3.75 0 1 0 7.5 0z" fill="currentColor" fill-rule="evenodd"></path>
-              </svg></a>
-        </section>
+<body class="detail-page">
+   <header>
+     <h1>M83 store detail page</h1>
+        <nav>
+			<img src="./images/Logo 800x299.png" alt="M83 home page">
+            <!-- afbeelding van https://ilovem83.com/ -->
+			<button><svg
+				width="100" height="100" 
+				viewBox="0 0 24 24" 
+				fill="none" 
+				stroke="currentColor" 
+				stroke-width="2" 
+				stroke-linecap="round" 
+				stroke-linejoin="round">
+				<line x1="3" y1="6" x2="21" y2="6" />
+				<line x1="3" y1="12" x2="21" y2="12" />
+				<line x1="3" y1="18" x2="21" y2="18" />
+			  </svg> </button>
+              <!-- SVG laten maken door chatGTP
+			   prompt: "maak een simpele hamburger menu svg" -->
 
+              <!-- <ol>
+                <li><a href="x">Home</a></li>
+                <li><a href="x">News</a></li>
+                <li><a href="x">Live</a></li>
+                <li><a href="x">Music</a></li>
+                <li><a href="x">Video</a></li>
+                <li><a href="x">Store</a></li>
+              </ol> -->
+		</nav>	
+   </header>
 
-    </nav>
-    <main>
-        <section>
-            <img src="./images/Fantasysweatshirt.webp" alt="wit fantasy sweater">
-            <h2>M83 Fantasy White Sweatshirt</h2>
-            <p>£45.00</p>
-            <p>tax included</p>
-            <h3>size</h3>
-            <ol>
+      <main>
+        <article class="detail-page">
+            
+            <section >
+                 <img src="./images/Fantasysweatshirt.webp" alt="White fantasy sweater">
+                 <!-- afbeelding van https://ilovem83.com/ -->
+            </section>
+           <section class="detail-page">
+              <h1>M83 Fantasy White Sweatshirt</h1>
+              <p>Regular fit</p>
+               <p>White sweatshirt featuring M83 logo and monster print screen printed on the front.</p>
+                <p>£45.00</p>
+                <p>Tax included</p>
+                <h2>Size</h2>
+                <ol >
                 <button>Small</button>
                 <button>Medium</button>
                 <button>Large</button>
                 <button>X-Large</button>
-                <button>XX-Large</button>
-            </ol>
-            <h3>Quantity</h3>
-            <ol>
-                <button>+</button>
+                </ol>
+                <h2>Quantity</h2>
+                <ol>
+                    <button><svg alt="kanker" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg></button>
+                  <!-- svg van chatGTP -->
                 <input type="number" name="Quantity">
-                <button>-</button>
-            </ol>
-            <button>Add to cart</button>
-            <p>White sweatshirt featuring M83 logo and monster print screen printed on the front.</p>
-            <p>Regular fit</p>
-        </section>
-        <section>
+                <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg></button>
+                  <!-- svg van chatGTP -->
+                </ol>
+                <button>Add to cart</button>
+            
+                
+           </section>
+          
+        </article>
+        <section >
             <h2>You may also like</h2>
-            <article>
-                <h3>m83 fantasy t-shity</h3>
-                <img src="./images/Blackmonsterteecopy.webp" alt="black m83 t-shirt">
-                <a
-                    href="https://store.ilovem83.com/products/m83-fantasy-2023-ukeu-black-tour-t-shirt-ao-m83?pr_prod_strat=e5_desc&pr_rec_id=43f21300a&pr_rec_pid=8074099916974&pr_ref_pid=8074080026798&pr_seq=uniform">m83
-                    fantasy t-shirt</a>
-                <p>£25.00</p>
-            </article>
-            <article>
-                <h3>mood dye-sub totebag</h3>
-                <img src="./images/M83 Fantasy Tote Bag.webp" alt="black m83 t-shirt">
-                <a
-                    href="https://store.ilovem83.com/products/moon-dye-sub-tote-bag?pr_prod_strat=e5_desc&pr_rec_id=43f21300a&pr_rec_pid=10168933964&pr_ref_pid=8074080026798&pr_seq=uniform">mood
-                    dye-sub totebag</a>
-                <p>£4.99</p>
-            </article>
-            <article>
-                <h3>city is my church girl black t-shirt</h3>
-                <img src="./images/M83 Fantasy Black 768x539.png" alt="black girl m83 t-shirt">
-                <a
-                    href="https://store.ilovem83.com/products/city-is-my-church-girls-black-t-shirt?pr_prod_strat=e5_desc&pr_rec_id=43f21300a&pr_rec_pid=4381145104480&pr_ref_pid=8074080026798&pr_seq=uniform">city
-                    is my church girl black t-shirt</a>
-                <p>£4.99</p>
-            </article>
-            <article>
-                <h3>Extazus a1 poster</h3>
-                <img src="./images/M83 Fantasy White Sweatshirt Poster.webp" alt="black girl m83 t-shirt">
-                <a
-                    href="https://store.ilovem83.com/products/extazus-a1-poster-ao-m83?pr_prod_strat=e5_desc&pr_rec_id=43f21300a&pr_rec_pid=8074080059566&pr_ref_pid=8074080026798&pr_seq=uniform">Extazus
-                    a1 poster</a>
-                <p>£20.00</p>
-            </article>
+            <div class="detail-page">
+                <article>
+                    <h3>m83 fantasy t-shity</h3>
+                    <img src="./images/Blackmonsterteecopy.webp" alt="black m83 t-shirt">
+                    <a href="https://store.ilovem83.com/products/m83-fantasy-2023-ukeu-black-tour-t-shirt-ao-m83?pr_prod_strat=e5_desc&pr_rec_id=43f21300a&pr_rec_pid=8074099916974&pr_ref_pid=8074080026798&pr_seq=uniform">m83
+                        fantasy t-shirt</a>
+                    <!-- afbeelding en link van https://ilovem83.com/ -->
+                    <p>£25.00</p>
+                </article>
+                <article>
+                    <h3>mood dye-sub totebag</h3>
+                    <img src="./images/M83 Fantasy Tote Bag.webp" alt="black m83 t-shirt">
+                    <a href="https://store.ilovem83.com/products/moon-dye-sub-tote-bag?pr_prod_strat=e5_desc&pr_rec_id=43f21300a&pr_rec_pid=10168933964&pr_ref_pid=8074080026798&pr_seq=uniform">mood
+                        dye-sub totebag</a>
+                        <!-- afbeelding en link van https://ilovem83.com/ -->
+                    <p>£4.99</p>
+                </article>
+                <article>
+                    <h3>city is my church girl black t-shirt</h3>
+                    <img src="./images/Fantasy CD.webp" alt="black girl m83 t-shirt">
+                    <a href="https://store.ilovem83.com/products/city-is-my-church-girls-black-t-shirt?pr_prod_strat=e5_desc&pr_rec_id=43f21300a&pr_rec_pid=4381145104480&pr_ref_pid=8074080026798&pr_seq=uniform">city
+                        is my church girl black t-shirt</a>
+                        <!-- afbeelding en link van https://ilovem83.com/ -->
+                    <p>£4.99</p>
+                </article>
+                <article>
+                    <h3>Extazus a1 poster</h3>
+                    <img src="./images/M83 Fantasy White Sweatshirt Poster.webp" alt="black girl m83 t-shirt">
+                    <a href="https://store.ilovem83.com/products/extazus-a1-poster-ao-m83?pr_prod_strat=e5_desc&pr_rec_id=43f21300a&pr_rec_pid=8074080059566&pr_ref_pid=8074080026798&pr_seq=uniform">Extazus
+                        a1 poster</a>
+                        <!-- afbeelding en link van https://ilovem83.com/ -->
+                    <p>£20.00</p>
+                </article> 
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="detail-page">
         <ul>
+            <h1>Legal</h1>
             <li><a href="https://contact.sandbag-support.com/support/home">Help</a></li>
             <li><a href="https://privacy-policy.sandbagheadquarters.com/">Privacy Policy</a></li>
-            <li><a href="https://privacy-policy.sandbagheadquarters.com/terms-conditions-uk/">Terms & Conditions/a></li>
+            <li><a href="https://privacy-policy.sandbagheadquarters.com/terms-conditions-uk/">Terms & Conditions</a></li>
         </ul>
+        <!-- links van https://ilovem83.com/ -->
         <ul>
+            <h1>M83 social medias</h1>
             <li><a href="https://twitter.com/m83">twitter</a></li>
             <li><a href="https://www.instagram.com/m83music/">instagram</a></li>
             <li><a href="https://www.facebook.com/m83/">Facebook</a></li>
         </ul>
+        <!-- links van https://ilovem83.com/ -->
         <ul>
+            <h1>You can pay with the following banks</h1>
+
+            <!-- --------- -->
+
+        <!-- alt tekst toevoegen -->
+
+            <!-- --------- -->
             <li>
                 <svg class="icon icon--full-color" xmlns="http://www.w3.org/2000/svg" role="img"
                     aria-labelledby="pi-american_express" viewBox="0 0 38 24" width="38" height="24">
@@ -334,6 +371,7 @@
                 </svg>
             </li>
         </ul>
+        <!-- SVG's en links van https://ilovem83.com/ -->
     </footer>
 </body>
 
