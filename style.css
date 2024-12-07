@@ -1,0 +1,553 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+box-sizing: border-box;  
+}
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	--color-text: whitesmoke;
+	--color-background: #081934;
+	--color-button: #d772a7;
+	--color-hover-background: black;
+	--color-form-background: #001230;
+	--color-valid: lightgreen;
+	--color-invalid: lightpink;
+	--white-background: whitesmoke;
+	--purple-background: #312870;
+	--background-nav1: hotpink;
+	--background-nav2: #312870;
+	--focus-border: aqua;
+	--heart-color: red;
+}
+
+
+
+@font-face {
+	font-family: "Auriol";
+	src: url(/fonts/auriol.otf);
+}
+
+
+
+
+/****************/
+/* ALGEMENE STIJLEN */
+/****************/
+
+p{
+	max-width: 50em;
+}
+
+main.home-page{
+	margin-top: 45vh;
+}
+
+
+body {
+	background-color: var(--color-background);
+	font-family: "Auriol",  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif , Helvetica, sans-serif;
+	line-height: 1.5; 
+}
+
+h1, h2, h3, h4, h5 {
+	color: var(--color-text);
+	z-index: 2;
+	text-align: center;
+}
+
+
+
+p {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif , Helvetica, sans-serif;;
+	position: relative;
+	color: var(--color-text);
+	font-size: 18px;
+	z-index: 2;
+	margin: 1em;
+}
+
+img {
+	z-index: 1;
+}
+
+svg {
+	fill: var(--white-background);
+	max-width: 5vw;
+	max-height: 5vh;
+}
+
+button {
+	background-color: var(--color-button);
+	padding: 1em;
+	border-radius: 1em;
+}
+
+button:hover {
+	transform: scale(1.05);
+}
+
+a:link, a:visited {
+	color: var(--color-text);
+	text-decoration: none;
+	z-index: 2;
+}
+
+ul, ol {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+	max-width: 90vw;
+	padding: 0em;
+	flex-wrap: wrap;
+}
+
+li {
+	margin: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+/****************/
+/* STRUCTUURELEMENTEN */
+/****************/
+/* Header */
+
+header{
+	height: 10em;
+
+}
+
+header h1 {
+	position: absolute;
+	top: -20vh;
+}
+
+
+
+
+/* /hamburger menu */
+
+nav {
+	display: flex; 
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	object-fit: cover;
+    background: radial-gradient(circle, var(--background-nav1) 20%, var(--background-nav2) 80%);
+	position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    translate: -100% 0%;
+    transition: translate .3s;
+	z-index: 100;
+
+}
+
+nav.toonMenu {
+    translate: 0% 0%;
+}
+
+nav ol { 
+	position:fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 32px;
+	
+}
+
+
+
+
+header img:nth-of-type(1) {
+	position: absolute;
+	left: 4vw;
+	top: 4vh;
+	background-color: var(--color-button);
+	padding: 0.5em;
+	border-radius: 0.5em;
+	z-index: 5;
+	max-width: 12em;
+	margin: 1em;
+	width: 40%;
+}
+
+header button {
+	position: absolute;
+	right: 4vw;
+	top: 3vh;
+	background: transparent;
+	border: none;
+	padding: 0;
+	color: var(--color-button);
+	z-index: 3;
+}
+
+nav svg{
+	stroke: var(--white-background);
+}
+
+nav h2{
+	color: transparent;
+	font-size: 1px;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+header svg {
+	min-width: 10vw;
+	min-height: 10vh;
+	max-width: 5em;
+	max-height: 5em;
+	
+}
+
+header img:nth-of-type(2){
+	position: absolute;
+	left: 0em;
+	top: 0em;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+}
+
+
+
+
+/* Main en secties */
+main { 
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 5em;
+}
+
+
+
+section article h2{
+	margin-bottom: 2em;
+}
+
+section:nth-of-type(2) {
+	background-color: var(--purple-background);
+	width: 100vw;
+}
+
+section:nth-of-type(3) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background: 
+		linear-gradient(rgba(8, 25, 52, 0.8), rgba(8, 25, 52, 0.4)),
+		url(https://ilovem83.com/wp-content/uploads/2022/12/M83_fantasy_050722_AnouckBertin-1600.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+section img:last-of-type {
+	width: 20em;
+	max-width: 70vw;
+}
+
+div{
+	display: grid;
+}
+
+
+
+
+/* Artikelen */
+
+
+
+article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+article p {
+	text-align: left;
+}
+
+article a:link {
+	text-decoration: underline;
+	text-decoration-color: var(--color-button);
+	font-weight: bold;
+}
+
+article a:hover {
+	background-color: var(--color-button);
+	color: var(--color-hover-background);
+}
+
+
+
+
+/* Form */
+form {
+	width: 80vw;
+	background-color: var(--color-form-background);
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5em;
+}
+
+input {
+	width: 60vw;
+	max-width: 20em;
+	height: 5vh;
+	margin: 1em;
+	font-size: 16px;
+	padding: 0.5em;
+}
+
+input:valid {
+	background-color: var(--color-valid);
+}
+
+input:user-invalid {
+	background-color: var(--color-invalid);
+}
+
+form button {
+	background-color: var(--color-hover-background);
+	color: var(--color-text);
+	font-weight: bold;
+	border-radius: 0em;
+	width: 40vw;
+}
+
+
+
+
+
+
+/* Footer */
+footer {
+	max-width: 90vw;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding: 2em;
+}
+
+footer img {
+	margin-top: 5vh;
+	width: 40vw;
+	max-width: 10em;
+	padding: 0.5em;
+	border-radius: 1em;
+}
+
+footer h2{
+color: transparent;
+	font-size: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+/****************/
+/* DETAILPAGINA */
+/****************/
+body.detail-page {
+	margin: 0em;
+	background-image: url(https://ilovem83.com/wp-content/uploads/2022/12/fantasy-cover2-1400.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	background-position: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+
+
+
+
+section:nth-of-type(2).detail-page {
+	background: transparent;
+	width: 80vw;
+	position: relative;
+	top: 0;
+}
+
+article input{
+	width: 5em;
+	height: 5em;
+	margin: 0em;
+	padding: 0em;
+}
+
+section div button{
+	background-color: transparent;
+	color: var(--color-text);
+	padding: 1em;
+	max-height: 5em;
+	margin: 0.5em;
+}
+
+section div{
+	display: flex;
+	align-items: center;
+}
+
+section div:last-of-type button:last-of-type{
+	border: 0px;
+	margin: 0em;
+	padding: 0em;
+	width: 3em;
+	
+}
+
+section div:last-of-type button:last-of-type svg{
+	fill: none;
+}
+
+
+
+article ol:nth-of-type(2) button{
+	border-radius: 0em;
+}
+
+article section:nth-of-type(1) img{
+	width: 80%;
+	max-width: 40em ;
+}
+
+div.detail-page{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div article{
+	margin: 2em;
+	min-width: 40vw;
+}
+
+div article img{
+	margin-bottom: 2em;
+}
+
+section div{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h3.detail-page, h2.detail-page{
+	color: transparent;
+	font-size: 1px;
+}
+
+article  div section p{
+	margin: 0.2em;
+}
+
+div input:valid{
+	background-color: transparent;
+}
+
+div input{
+	text-align: center;
+	font-size: 24px;
+	padding: 0em;
+	width: 3em;
+	height: 3em;
+	color: var(--color-text);
+}
+
+div:nth-of-type(1) button, div:nth-of-type(3) button{
+	border: 2px solid var(--white-background); 
+    padding: 10px 20px; 
+    background-color: transparent; 
+    color: var(--color-text); 
+    border-radius: 1em; 
+    cursor: pointer;
+}
+
+div:nth-of-type(2) button{
+	border: 0px;
+	height: 4em;
+	margin: 0em;
+
+}
+
+div:nth-of-type(2){
+	border: 2px solid var(--white-background); 
+	align-items: center;
+}
+
+
+div:nth-of-type(3) button{
+	width: 12em;
+	cursor: pointer;
+
+
+}
+
+div:nth-of-type(3) button:first-of-type:active{
+	background-color: var(--color-button);
+	transition: background-color 0.1s ease;
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1100px) {
+    div.detail-page {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 2em; 
+        align-items: start;}
+		
+    article div section {
+        max-width: 45vw; 
+    }
+}
