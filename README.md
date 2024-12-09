@@ -1,4 +1,4 @@
-# Procesverslag
+<img width="1440" alt="Screenshot 2024-11-08 at 15 17 14" src="https://github.com/user-attachments/assets/aa5b8ba2-0328-4ab8-a16f-f068d33706f5"># Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+ Joep Groenteman
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  responsive
  
 </details>
 
@@ -32,19 +32,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
+
+
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-
+  [link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+](https://ilovem83.com/)
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ Home page  
+<img width="1436" alt="M83-HomeScreen" src="https://github.com/user-attachments/assets/4ecaa12b-8e8d-4439-bbce-b216561d83f3">
+
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Music page
+![Uploading M83-Music.png…]() 
+
  
 </details>
 
@@ -58,6 +63,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Uit de toegankelijkheidstest is gekomen dat de website op alles behalve 'media' en 'controls' goed scoort. Op 'media' scoort de website niet goed genoeg, omdat er geen transcript captions zijn. En op 'controls' is niet goed gescoort omdat je niet goed met je toetsenbrod door de pagina heen kan gaan. 
+Wat ik zelf merk ik dat de webstite op sommige punten een goede scoren heeft, maar dat niet betekent dat het makkelijk/goed te gebruiken is. Ik vind de website zelf niet toeghankelijk genoeg. Je krijgt als je op de pagina komt meteen een pagina vullende video te zien waar je alleen uit kan komen als je je muis gebruikt. En de screenreader lees niet alles op. En wanneer die wat voorleest onder op de pagina blijft de pagina boven aan hangen. 
+
 </details>
 
 
@@ -68,13 +76,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="./readme-images/breakdown-home1.png" width="375px" alt="breakdown van de home page 1">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+   <img src="./readme-images/breakdown-home2.png" width="375px" alt="breakdown van de home page 2">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+ <img src="./readme-images/breakdown-store.png" width="375px" alt="breakdown van de store page">
 
 </details>
 
@@ -88,26 +94,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+-  Mijn vanila HTML was af voor het gesprek. Er klopte alleen niet veel van, omdat ik te veel keek naar de code van de website zelf ipv dat ik zelf ging bedenken waar wat staat en wat het precies was. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Mijn groepje kwam (bijna) geen gesprek opdagen. Ik was elke keer alleen 
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik moet niet kijken naar de code van de website zelf, omdat daar niks van klopte.
+  - Het is beter om eerst de oefeningen te maken en daarna aan de website te beginnen
 
 </details>
 
@@ -121,26 +121,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  - Ik heb een begin aan mijn CSS gemaakt. 
+  - Het gaat al beter dan vorig jaar doordat ik bijvoorbeeld 'root' gebruik.
+  - mijn CSS begin nu wel al een beetje chaotisch te worden
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+Mijn groepje was er weer niet
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Ik moet niet te veel focusen op details, zoals een blur tussen afbeeldingen en achtergrond. 
+  Het is beter als ik eerst zorg dat de basis goed is. 
+  - Ik moet goed mijn readme blijven oploaden, omdat het leek alsof ik niks had gedaan
+  - voor de rest liep ik niet echt tegen dingen aan. 
+
 
 </details>
 
@@ -168,8 +165,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - wat goed ging is dat mijn site responsive was
+  - Mijn logo ging alleen niet helemaal goed als mijn scherm te breed ging. Ik had er een max height op gezet wat niet nodig was.
+  - Mijn CSS begint al groter te worden, maar ik ben bang dat die te groot is
 
+ <img src="./readme-images/header-img-code.png" width="375px" alt="code van mijn header image">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -184,11 +184,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  -Mijn CSS is niet te groot. Je CSS kan bijna nooit te groot zijn, maar je moet zorgen dat er  niks onnodigs in staat en dat het goed georganiseerd is.
 </details>
 
 
@@ -229,8 +225,50 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. SVG laten maken door chatGTP
+		prompt: "maak een simpele hamburger menu svg"
+    <svg
+			aria-hidden="true"
+			aria-label="hamburger menu"
+			width="100" height="100" 
+			viewBox="0 0 24 24" 
+			stroke="currentColor" 
+			stroke-width="2" 
+			stroke-linecap="round" 
+			stroke-linejoin="round">
+			<line x1="3" y1="6" x2="21" y2="6" />
+			<line x1="3" y1="12" x2="21" y2="12" />
+			<line x1="3" y1="18" x2="21" y2="18" />
+		</svg> 
+  2. SVG van chatGTP
+		 promt "maak een close button svg aub"
+     <svg 
+     xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" aria-label="close button">
+			<line x1="10" y1="10" x2="40" y2="40"  stroke-width="5" stroke-linecap="round"/>
+			<line x1="10" y1="40" x2="40" y2="10"  stroke-width="5" stroke-linecap="round"/>
+		  </svg>
 
+  3. socail media email icons van de m83 website
+
+  4.  svg van chatGTP Prompt: Maak een Min SVG
+
+  <svg 
+  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="plus">
+  < line x1="5" y1="12" x2="19" y2="12"></line>
+  </svg>
+
+5. svg van chatGTP Prompt: Maak een PLuus SVG 
+svg
+ xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="minus">
+  < line x1="12" y1="5" x2="12" y2="19"></line>
+  < line x1="5" y1="12" x2="19" y2="12"></line>
+  </svg>
+
+6. svg van chatGTP  Prompt: Maak een hart SVG
+                      
+svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="heart icon">
+< path d="M12 21C12 21 4 13.8 4 8.4C4 5.5 6.2 3.3 9 3.3C10.7 3.3 12 4.5 12 4.5C12 4.5 13.3 3.3 15 3.3C17.8 3.3 20 5.5 20 8.4C20 13.8 12 21 12 21Z"/>
+</svg>
+
+7. Betaal methodes SVG's van de m83 webs
 </details>
