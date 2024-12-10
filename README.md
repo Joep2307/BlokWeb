@@ -150,8 +150,21 @@ Mijn groepje was er weer niet
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
+<img src="./readme-images/WCAG1.png" width="375px" alt="WCAG checklist 1">
+<img src="./readme-images/WCAG2.png" width="375px" alt="WCAG checklist 2">
+<img src="./readme-images/WCAG3.png" width="375px" alt="WCAG checklist 3">
+<img src="./readme-images/WCAG4.png" width="375px" alt="WCAG checklist 4">
+<img src="./readme-images/WCAG5.png" width="375px" alt="WCAG checklist 5">
+
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+  - De headers werden heel onlogisch gebruikt. Er was geen h1. Het ging van h3 naar h2 naar h3. Ik heb de headers zoals het hoort gedaan: h1 > h2 > h3 etc
+  - De video wanneer je de website opkwam was niet op pauze te zetten.
+  - Er was geen foccus state.
+  - Je kon niet met je Tab door de website gaan.
+  - Als je de site op je telefoon horizontaal bekeek kwam er empty space links en rechts
+  - Video kunnen niet op pauze worden gezet.
 
 </details>
 
