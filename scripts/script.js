@@ -4,7 +4,7 @@ openButton.onclick = openMenu;
 
 
 
-function openMenu() {  
+function openMenu() {
 
   var deNav = document.querySelector("nav");
 

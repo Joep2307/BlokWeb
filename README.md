@@ -124,6 +124,7 @@ Wat ik zelf merk ik dat de webstite op sommige punten een goede scoren heeft, ma
   - Ik heb een begin aan mijn CSS gemaakt. 
   - Het gaat al beter dan vorig jaar doordat ik bijvoorbeeld 'root' gebruik.
   - mijn CSS begin nu wel al een beetje chaotisch te worden
+  
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -137,6 +138,7 @@ Mijn groepje was er weer niet
   Het is beter als ik eerst zorg dat de basis goed is. 
   - Ik moet goed mijn readme blijven oploaden, omdat het leek alsof ik niks had gedaan
   - voor de rest liep ik niet echt tegen dingen aan. 
+  - Mijn font was nog Times New Roman. Ik ga een beter font uitzoeken wat meer bij de website past. 
 
 
 </details>
@@ -210,19 +212,36 @@ Mijn groepje was er weer niet
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="readme-images/M83-FED-home.JPG" width="375px" alt="M83 home page">
+<img src="readme-images/M83-FED-store.JPG" width="375px" alt="M83 store page">
+<img src="readme-images/M83-FED-nav.PNG" width="375px" alt="M83 nav page">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+- Al mijn code is W3S valid. Alle twee mijn css en html
+
+- mijn website is responvive. en ik heb geleerd hoe ik media query's gebruik
+<img src="readme-images/mediaquery.png" width="375px" alt="code van mijn media query">
+
+- Ik heb geleerd hoe ik mijn code efficienter kan maken door bijvoorbeeld ':root' te gebruiken. Dit heeft mij veel tijd bespaard.
+<img src="readme-images/root-css.png" width="375px" alt="code van mijn root css">
+
+- Ik heb ook geleerd heo ik animaties moet maken. Hier wil ik wel meer over leren. 
+<img src="readme-images/animatie-css.png" width="375px" alt="code van mijn animatie css">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+- Ik wilde net zoals de M83 website een blur maken tussen de verschillende achtergronden. Ik heb verschillende dingen geprobeerd zoals en div met position absolute, maar dit werkte niet omdat ik het positioneren nog niet goed genoeg onde de knie had. Als ik meer tijd had wilde ik dit ook toevoegen
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+<img src="readme-images/Blur-css.png" width="375px" alt="blur css">
+<img src="readme-images/Blur-html.png.png" width="375px" alt="blur html">
+<img src="readme-images/Blur-m83.png.png" width="375px" alt="blur m83">
+
+
+- Wat ik ook wilde toevoegen was de video die afspeel wanneer je de m83 website opent. Ik heb dit uiteindelijk niet gedaan, omdat dit te veel werk was om toeghankelijk te maken. Als ik dit toevoegde had het meer nadelen dan voordelen voor mijn website.
+
+<img src="readme-images/Eerste-video-m83.png" width="375px" alt="Video die opent wanneer je de website opent">
+
 </details>
 
 
