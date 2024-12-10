@@ -242,6 +242,8 @@ Mijn groepje was er weer niet
 
 <img src="readme-images/Eerste-video-m83.png" width="375px" alt="Video die opent wanneer je de website opent">
 
+- Wanneer ik de screenreader gebruik leest die eerst de navigatie op terwijl die verstopt is. Dit kan opgelost worden door een skip button of door de navigatie te verplaatsen naar de footer, maar hier heb ik nog geen tijd voor gehad. 
+
 </details>
 
 

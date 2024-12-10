@@ -106,23 +106,7 @@ button {
 	cursor: pointer;
 }
 
-main button:hover {
-	transform: scale(1.3);
-	background-color: var(--color-button);
-	font-weight: bold;
-	color: var(--color-hover-text);
-}
 
-header button:hover {
-	transform: scale(1.3);
-}
-
-a:link,
-a:visited {
-	color: var(--color-text);
-	text-decoration: none;
-	z-index: 2;
-}
 
 ul,
 ol {
@@ -141,15 +125,39 @@ li {
 
 
 
+a:link,
+a:visited {
+    color: var(--color-text); 
+    text-decoration: none; 
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+a:hover,
+a:focus-visible {
+    color: var(--color-hover-text); 
+    background-color: var(--color-button); 
+    text-decoration: underline; 
+	transform: scale(1.3);
+    outline: 2px solid var(--focus-border); 
+    outline-offset: 2px; 
+    border-radius: 0.5em; 
+}
+
+a:active {
+    color: var(--color-hover-background); 
+    background-color: var(--color-hover-text); 
+}
 
 
 
 
 
-
-/****************/
+/***********************/
+/***********************/
 /* STRUCTUURELEMENTEN */
-/****************/
+/**********************/
+/**********************/
+
 /* Header */
 
 header {
@@ -165,7 +173,14 @@ header h1 {
 
 
 
-/* /hamburger menu */
+
+
+
+
+
+
+/*******************/
+/* Nav */
 
 nav {
 	display: flex;
@@ -196,10 +211,8 @@ nav ol {
 	align-items: center;
 	justify-content: center;
 	font-size: 32px;
+	margin-top: 20vh;
 }
-
-
-
 
 header img:nth-of-type(1) {
 	position: absolute;
@@ -237,15 +250,18 @@ nav h2 {
 nav ul {
 	display: flex;
 	flex-direction: row;
-
 }
 
+
+
+
+
+/* hamburger & close button */
 header svg {
 	min-width: 10vw;
 	min-height: 10vh;
 	max-width: 5em;
 	max-height: 5em;
-
 }
 
 header img:nth-of-type(2) {
@@ -257,14 +273,25 @@ header img:nth-of-type(2) {
 	object-fit: cover;
 }
 
-
+/* disabled buttons nacigatie */
 nav ol li a.detail-page {
-
 	cursor: not-allowed;
-
+	cursor: none;
 }
 
+
+
+
+
+
+
+
+
+
+/*\8*****************/
 /* Main en secties */
+/*******************/
+
 main {
 	position: relative;
 	display: flex;
@@ -281,9 +308,12 @@ section {
 }
 
 
+main section article {
+	margin-top: 8vh;
+}
 
 section article h2 {
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 }
 
 section:nth-of-type(2) {
@@ -310,16 +340,126 @@ section img:last-of-type {
 	max-width: 70vw;
 }
 
+
+
+
+
+
+
+/*******/
+/* Div */
+/*******/
+
+
 div {
 	display: grid;
+}
+
+section div button {
+	background-color: transparent;
+	color: var(--color-text);
+	padding: 1em;
+	max-height: 5em;
+	margin: 0.5em;
+}
+
+section div {
+	display: flex;
+	align-items: center;
+}
+
+section div:last-of-type button:last-of-type {
+	border: 0px;
+	margin: 0em;
+	padding: 0em;
+	width: 3em;
+	background: transparent;
+
+}
+
+section div:last-of-type button:last-of-type svg {
+	fill: none;
+}
+
+div article {
+	margin: 2em;
+	min-width: 40vw;
+}
+
+div article img {
+	margin-bottom: 2em;
+}
+
+section div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div input:valid {
+	background-color: transparent;
+}
+
+div input {
+	text-align: center;
+	font-size: 24px;
+	padding: 0em;
+	width: 3em;
+	height: 3em;
+	color: var(--color-text);
+}
+
+div:nth-of-type(1) button,
+div:nth-of-type(3) button {
+	border: 2px solid var(--white-background);
+	padding: 10px 20px;
+	border-radius: 1em;
+	cursor: pointer;
+}
+
+div:nth-of-type(2) button {
+	border: 0px;
+	height: 4em;
+	margin: 0em;
+}
+
+div:nth-of-type(2) {
+	border: 2px solid var(--white-background);
+	align-items: center;
+}
+
+
+div:nth-of-type(3) button {
+	width: 12em;
+}
+
+div:nth-of-type(3) button:first-of-type:hover {
+	background-color: var(--color-button);
+}
+
+main button:hover {
+	transform: scale(1.3);
+	background-color: var(--color-button);
+	font-weight: bold;
+	color: var(--color-hover-text);
+}
+
+button:hover, button:focus-visible{
+    transform: scale(1.3);
+    outline: 2px solid var(--focus-border);
+}
+
+/* quantity buttons */
+div:nth-of-type(2) button:hover{
+	background-color: transparent;
+	color: var(--white-background);
 }
 
 
 
 
+
+/*****************/
 /* Artikelen */
-
-
 
 article {
 	display: flex;
@@ -341,6 +481,26 @@ article a:hover {
 	background-color: var(--color-button);
 	color: var(--color-hover-background);
 }
+
+
+article ol:nth-of-type(2) button {
+	border-radius: 0em;
+}
+
+article section:nth-of-type(1) img {
+	width: 80%;
+	max-width: 40em;
+}
+
+article div section p {
+	margin: 0.2em;
+}
+
+
+
+
+
+
 
 
 
@@ -373,6 +533,7 @@ input:user-invalid {
 	background-color: var(--color-invalid);
 }
 
+
 form button {
 	background-color: var(--color-hover-background);
 	color: var(--color-text);
@@ -380,6 +541,10 @@ form button {
 	border-radius: 0em;
 	width: 40vw;
 }
+
+
+
+
 
 
 
@@ -420,6 +585,8 @@ footer h2 {
 /****************/
 /* DETAILPAGINA */
 /****************/
+
+/* achtergrond detail page */
 body.detail-page {
 	margin: 0em;
 	background-image: url(https://ilovem83.com/wp-content/uploads/2022/12/fantasy-cover2-1400.jpg);
@@ -436,6 +603,12 @@ body.detail-page {
 
 
 
+
+
+
+
+
+/* detail pagina product informatie */
 section:nth-of-type(2).detail-page {
 	background: transparent;
 	width: 80vw;
@@ -443,50 +616,6 @@ section:nth-of-type(2).detail-page {
 	top: 0;
 }
 
-article input {
-	width: 5em;
-	height: 5em;
-	margin: 0em;
-	padding: 0em;
-}
-
-section div button {
-	background-color: transparent;
-	color: var(--color-text);
-	padding: 1em;
-	max-height: 5em;
-	margin: 0.5em;
-}
-
-section div {
-	display: flex;
-	align-items: center;
-}
-
-section div:last-of-type button:last-of-type {
-	border: 0px;
-	margin: 0em;
-	padding: 0em;
-	width: 3em;
-	background: transparent;
-
-}
-
-section div:last-of-type button:last-of-type svg {
-	fill: none;
-}
-
-
-
-
-article ol:nth-of-type(2) button {
-	border-radius: 0em;
-}
-
-article section:nth-of-type(1) img {
-	width: 80%;
-	max-width: 40em;
-}
 
 div.detail-page {
 	display: flex;
@@ -494,19 +623,6 @@ div.detail-page {
 	justify-content: center;
 }
 
-div article {
-	margin: 2em;
-	min-width: 40vw;
-}
-
-div article img {
-	margin-bottom: 2em;
-}
-
-section div {
-	display: flex;
-	flex-wrap: wrap;
-}
 
 h3.detail-page,
 h2.detail-page {
@@ -514,55 +630,19 @@ h2.detail-page {
 	font-size: 1px;
 }
 
-article div section p {
-	margin: 0.2em;
-}
 
-div input:valid {
-	background-color: transparent;
-}
 
-div input {
-	text-align: center;
-	font-size: 24px;
-	padding: 0em;
-	width: 3em;
-	height: 3em;
-	color: var(--color-text);
-}
 
-div:nth-of-type(1) button,
-div:nth-of-type(3) button {
-	border: 2px solid var(--white-background);
-	padding: 10px 20px;
-	border-radius: 1em;
-	cursor: pointer;
-}
 
-div:nth-of-type(2) button {
-	border: 0px;
-	height: 4em;
+/* Quantity input detail page */
+article input {
+	width: 5em;
+	height: 5em;
 	margin: 0em;
-
+	padding: 0em;
 }
 
-div:nth-of-type(2) {
-	border: 2px solid var(--white-background);
-	align-items: center;
-}
-
-
-div:nth-of-type(3) button {
-	width: 12em;
-}
-
-div:nth-of-type(3) button:first-of-type:hover {
-	background-color: var(--color-button);
-}
-
-section article h3 {
-	font-size: 26px;
-}
+/* Hart detail page */
 
 .hart-button {
 	background: none;
@@ -590,7 +670,7 @@ section article h3 {
 	}
 }
 
-/* Interactie op hover of focus */
+/* Interactie op hover & focus */
 .hart-button:hover .hart-icon,
 .hart-button:focus .hart-icon {
 	animation: heartFill 0.5s forwards;
