@@ -234,8 +234,8 @@ Mijn groepje was er weer niet
 - Ik wilde net zoals de M83 website een blur maken tussen de verschillende achtergronden. Ik heb verschillende dingen geprobeerd zoals en div met position absolute, maar dit werkte niet omdat ik het positioneren nog niet goed genoeg onde de knie had. Als ik meer tijd had wilde ik dit ook toevoegen
 
 <img src="readme-images/Blur-css.png" width="375px" alt="blur css">
-<img src="readme-images/Blur-html.png.png" width="375px" alt="blur html">
-<img src="readme-images/Blur-m83.png.png" width="375px" alt="blur m83">
+<img src="readme-images/Blur-html.png" width="375px" alt="blur html">
+<img src="readme-images/Blur-m83.png" width="375px" alt="blur m83">
 
 
 - Wat ik ook wilde toevoegen was de video die afspeel wanneer je de m83 website opent. Ik heb dit uiteindelijk niet gedaan, omdat dit te veel werk was om toeghankelijk te maken. Als ik dit toevoegde had het meer nadelen dan voordelen voor mijn website.
