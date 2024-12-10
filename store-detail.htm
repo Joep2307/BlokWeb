@@ -15,7 +15,7 @@
         <h1>M83 home page</h1>
         <a href="index.html"><img src="./images/Logo-800x299.png" alt="M83 home page"></a>
         <button aria-label="Hamburger menu">
-            <svg  aria-hidden="true" aria-label="hamburger menu" width="100" height="100" viewBox="0 0 24 24"
+            <svg aria-hidden="true" aria-label="hamburger menu" width="100" height="100" viewBox="0 0 24 24"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <line x1="3" y1="6" x2="21" y2="6" />
                 <line x1="3" y1="12" x2="21" y2="12" />
@@ -92,10 +92,10 @@
                     <p>Tax included</p>
                     <h4>Size</h4>
                     <div>
-                        <button>Small</button>
-                        <button>Medium</button>
-                        <button>Large</button>
-                        <button>X-Large</button>
+                        <button aria-label="Select size Small">Small</button>
+                        <button aria-label="Select size Medium">Medium</button>
+                        <button aria-label="Select size Large">Large</button>
+                        <button aria-label="Select size X-Large">X-Large</button>
                     </div>
                     <h5>Quantity</h5>
                     <div>
@@ -107,7 +107,7 @@
                             </svg>
                         </button>
                         <!-- svg van chatGTP Prompt: Maak een Min SVG -->
-                        <input type="number" name="Quantity" aria-label="Quantity">
+                        <input type="number" name="Quantity" min="1" value="1" aria-label="Quantity">
                         <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" aria-label="minus">
@@ -118,8 +118,8 @@
                     </div>
                     <div>
                         <button>Add to cart</button>
-                        <button class="hart-button"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        <button aria-label="Add to wishlist"><svg xmlns="http://www.w3.org/2000/svg" width="100"
+                                height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round" aria-label="heart icon"
                                 class="hart-icon">
                                 <path
@@ -138,14 +138,13 @@
                     <img src="./images/Blackmonsterteecopy.webp" alt="black m83 t-shirt">
                     <a
                         href="https://store.ilovem83.com/products/m83-fantasy-2023-ukeu-black-tour-t-shirt-ao-m83?pr_prod_strat=e5_desc&pr_rec_id=43f21300a&pr_rec_pid=8074099916974&pr_ref_pid=8074080026798&pr_seq=uniform">M83
-                        fantasy t-shirt</a>
+                        antasy t-shirt</a>
                     <!-- afbeelding en link van https://ilovem83.com/ -->
                     <p>£25.00</p>
                 </article>
                 <article>
                     <h3>Mood dye-sub totebag</h3>
-                    <img src="./images/M83-Fantasy-Tote-Bag.webp" alt="mood
-                    dye-sub totebag">
+                    <img src="./images/M83-Fantasy-Tote-Bag.webp" alt="mood dye-sub totebag">
                     <a
                         href="https://store.ilovem83.com/products/moon-dye-sub-tote-bag?pr_prod_strat=e5_desc&pr_rec_id=43f21300a&pr_rec_pid=10168933964&pr_ref_pid=8074080026798&pr_seq=uniform">Mood
                         dye-sub totebag</a>
@@ -176,36 +175,33 @@
     <footer class="detail-page">
         <h2>Legal</h2>
         <ul>
-            <li><a href="https://contact.sandbag-support.com/support/home">Help</a></li>
-            <li><a href="https://privacy-policy.sandbagheadquarters.com/">Privacy Policy</a></li>
-            <li><a href="https://privacy-policy.sandbagheadquarters.com/terms-conditions-uk/">Terms & Conditions</a>
-            </li>
+            <li><a href="https://contact.sandbag-support.com/support/home" aria-label="Visit Help page">Help</a></li>
+            <li><a href="https://privacy-policy.sandbagheadquarters.com/" aria-label="View Privacy Policy">Privacy
+                    Policy</a></li>
+            <li><a href="https://privacy-policy.sandbagheadquarters.com/terms-conditions-uk/"
+                    aria-label="Read Terms & Conditions">Terms & Conditions</a></li>
         </ul>
         <!-- links van https://ilovem83.com/ -->
         <h2>Navigation</h2>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="https://ilovem83.com/news/">News</a></li>
-            <li><a href="https://ilovem83.com/live/">Live</a></li>
-            <li><a href="https://ilovem83.com/music/">Music</a></li>
-            <li><a href="https://ilovem83.com/videos/">Videos</a></li>
-            <li><a href="store-detail.htm">Store</a></li>
+            <li><a href="index.html" aria-label="Go to Home page">Home</a></li>
+            <li><a href="https://ilovem83.com/news/" aria-label="Read News">News</a></li>
+            <li><a href="https://ilovem83.com/live/" aria-label="View Live performances">Live</a></li>
+            <li><a href="https://ilovem83.com/music/" aria-label="Explore Music">Music</a></li>
+            <li><a href="https://ilovem83.com/videos/" aria-label="Watch Videos">Videos</a></li>
+            <li><a href="store-detail.htm" aria-label="Visit Store page">Store</a></li>
             <!-- links van https://ilovem83.com/ -->
         </ul>
 
         <h2>M83 social medias</h2>
         <ul>
-            <li><a href="https://twitter.com/m83">Twitter</a></li>
-            <li><a href="https://www.instagram.com/m83music/">Instagram</a></li>
-            <li><a href="https://www.facebook.com/m83/">Facebook</a></li>
+            <li><a href="https://twitter.com/m83" aria-label="Follow M83 on Twitter">Twitter</a></li>
+            <li><a href="https://www.instagram.com/m83music/" aria-label="Follow M83 on Instagram">Instagram</a></li>
+            <li><a href="https://www.facebook.com/m83/" aria-label="Follow M83 on Facebook">Facebook</a></li>
         </ul>
         <!-- links van https://ilovem83.com/ -->
         <h2>You can pay with the following banks</h2>
         <ul>
-
-
-
-
 
             <li>
                 <svg class="icon icon--full-color" xmlns="http://www.w3.org/2000/svg" role="img"
